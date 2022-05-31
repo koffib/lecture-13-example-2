@@ -9,22 +9,104 @@
     <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
+    <form >
+        <table>
+            <!-- trv for table row-->  <!--td for table data-->
+            <tr>
+                <td><label for="fName">First Name:</label></td>
+                <td><input name="fName"></td>
+            </tr>
+            <tr>
+                <td><label for="fName">Last Name:</label></td>
+                <td><input name="lName"></td>
+            </tr>
+            <tr>
+                <td><label for="bday">Birthday:</label></td>
+                <td><input name="bday" type="date"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></td>
+            </tr>
 
-    <!--Form -->
-    <form>
+            <!--File -->
+            <tr>
+                <td><label for="photo">Photo Upload:</label></td>
+                <td><input name="photo" type="file"></td>
+            </tr>
+            <!--Password-->
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input name="password" type="password"></td>
+            </tr>
+            <!--Range-->
+            <tr>
+                <td><label for="bday">Birthday:</label></td>
+                <td><input name="bday" type="range"></td>
+            </tr>
+            <!--email-->
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input name="email" type="email" required></td>
+            </tr>
+            <!--checkbox-->
+            <tr>
+                <td><label for="chk1">Checkbox 1:</label></td>
+                <td><input name="chk1" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><label for="chk1">Checkbox 1:</label></td>
+                <td><input name="chk1" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><label for="chk1">Checkbox 1:</label></td>
+                <td><input name="chk1" type="checkbox"></td>
+            </tr>
+            <!--RadioButton-->
+            <tr>
+                <td><label for="chk1">--RadioButton--:</label>
+                
+                </td>
+                <td><input name="chk1" type="radio">
+                    <input name="chk1" type="radio" checked>
+                    <input name="chk1" type="radio">
+                    <input name="chk1" type="radio">
+                </td>
 
-        
+                <!--Select Combo Box -->
+            <tr>
+                <td><label for="cars">Cars:</label></td>
+                <td>
+                    <select >
+                     <optgroup label="Great Makes">
+                        <option value="AMG">AMG</option>
+                        <option value="Toyota">Toyota</option>
+                     </optgroup>
 
-
-
-
-
-
-
-
-
+                    </select>
+                </td>
+            </tr>
+            <!--Text Area-->
+            <tr>
+                <td><label for="chk1">Description :</label>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </td>
+                
+            </tr>
+            <!--Color Picker-->
+            <tr>
+                <td>Color Picker</td>
+                <td><input type="color" id="iddd"></td>
+            </tr>
+                
+            </tr>
+        </table>
 
     </form>
+    <!--Form -->
+   
 
     <script src="script/js.js"></script>
     
